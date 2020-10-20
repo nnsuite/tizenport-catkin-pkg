@@ -1,8 +1,8 @@
 Name:           python-catkin_pkg
-Version:        0.3.7	
+Version:        0.4.23
 Release:        0
 License:        BSD
-Summary:        Catkin package library
+Summary:        Standalone Python library for the Catkin package system
 Url:            http://wiki.ros.org/python-catkin_pkg
 Group:          Development/Languages/Python
 Source0:        %{name}-%{version}.tar.gz
@@ -13,7 +13,7 @@ Requires:       python-argparse
 BuildRequires:  python-mock
 
 %description
-Library for retrieving information about catkin packages.
+Standalone Python library for the Catkin package system.
 
 %prep
 %setup -q
@@ -33,6 +33,11 @@ cp %{SOURCE1001} .
 %{_bindir}/catkin_generate_changelog
 %{_bindir}/catkin_tag_changelog
 %{_bindir}/catkin_test_changelog
+%{_bindir}/catkin_package_version
+%{_bindir}/catkin_prepare_release
+
 %{python_sitelib}/*
 
 %changelog
+* Tue Oct 20 2020 Wook Song <wook16.song@samsung.com>
+- Bumped up to v0.4.23
