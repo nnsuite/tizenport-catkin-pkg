@@ -1,3 +1,9 @@
+python-catkin-pkg (0.4.23-200) xenial yakkety zesty artful bionic cosmic disco eoan jessie stretch buster; urgency=low
+
+  * Change the version of python-catkin-pkg-modules that this package depends on
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 29 Sep 2020 12:51:26 +0000
+
 python-catkin-pkg (0.4.23-100) xenial yakkety zesty artful bionic cosmic disco eoan jessie stretch buster; urgency=low
 
   * source package automatically created by stdeb 0.9.1

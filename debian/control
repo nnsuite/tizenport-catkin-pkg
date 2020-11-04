@@ -10,7 +10,7 @@ X-Python3-Version: >= 3.4
 
 Package: python-catkin-pkg
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-argparse, python-catkin-pkg-modules (>= 0.4.23), python-dateutil, python-docutils
+Depends: ${misc:Depends}, ${python:Depends}, python-argparse, python-catkin-pkg-modules (>> 0.4.22), python-dateutil, python-docutils
 Conflicts: catkin, python3-catkin-pkg
 Description: catkin package library
  Library for retrieving information about catkin packages.
